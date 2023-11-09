@@ -1,0 +1,16 @@
+name: home
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.6
+  flutter: ">=3.3.0"
+
+# Add regular dependencies here.
+dependencies:
+  common_dependencies:
+    path: ../../common_dependencies
+  state_management:
+    path: ../../core/state_management
+
